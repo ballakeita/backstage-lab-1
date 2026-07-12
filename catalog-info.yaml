@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-lab-1
+  description: Mon tout premier composant importé dans Backstage !
+  annotations:
+    # Cette annotation permet d'afficher les stats GitHub (commits, PRs) dans le portail
+    # Remplace bien par le nom exact de ton dépôt
+    github.com/project-slug: ballakeita/backstage-lab-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:ballakeita # Ici, on relie ce projet à TON identité !
